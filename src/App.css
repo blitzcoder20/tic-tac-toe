@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 150px); /* Tre colonne da 150px ciascuna */
+  grid-gap: 10px; /* Spazio tra le celle */
+  text-align: center; /* Centra il contenuto all'interno delle celle */
+  justify-content: center; /* Centra orizzontalmente */
+}
+
+.box-btn {
+  margin: 5px;
+  height: 150px;
+  width: 150px;
+  font-size: 24pt; /* Dimensione del testo */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Altri stili per il bottone */
+}
